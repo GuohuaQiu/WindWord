@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/menu_down_content" android:title="Download"></item>
+<item android:id="@+id/menu_add_to_confused_word" android:title="Confused word"></item>
+<item android:id="@+id/menu_manage_confused_word" android:title="Confused To"></item>
+<item android:id="@+id/menu_history" android:title="History"></item>
+<item android:id="@+id/menu_delete_temp_file" android:title="Delete Temp File"></item>
+<item android:id="@+id/menu_down_colins" android:title="下载格林斯"></item>
+<item android:id="@+id/menu_down_biling" android:title="下载双语例句"></item>
+<item android:id="@+id/menu_down_eng_des" android:title="down eng"></item>
+<item android:id="@+id/menu_down_wdlist_content" android:title="down all"></item>
+</menu>

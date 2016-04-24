@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/choose_path" android:title="选择一组"></item>
+<item android:id="@+id/rename" android:title="选择一组"></item>
+<item android:id="@+id/test_menu" android:title="test"></item>
+</menu>

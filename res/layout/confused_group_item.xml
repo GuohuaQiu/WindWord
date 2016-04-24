@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="30dp"
+    android:id="@+id/RefreshItem"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@drawable/calculator_button"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textAppearance="@style/TextAppearanceLarge"
+        android:id="@+id/word_01"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#ffffff00"
+        android:textSize="20sp" />
+    <TextView
+        android:textAppearance="@style/TextAppearanceLarge"
+        android:id="@+id/word_02"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#ff22ff88"
+        android:textSize="20sp" />
+    <TextView
+        android:textAppearance="@style/TextAppearanceLarge"
+        android:id="@+id/word_03"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#ff00ffff"
+        android:textSize="20sp" />
+    <TextView
+        android:textAppearance="@style/TextAppearanceLarge"
+        android:id="@+id/word_04"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#ffff0000"
+        android:textSize="20sp" />
+    <TextView
+        android:textAppearance="@style/TextAppearanceLarge"
+        android:id="@+id/word_05"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#ffffaa00"
+        android:textSize="20sp" />
+</LinearLayout>
+
+

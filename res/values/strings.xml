@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainScreen!</string>
+    <string name="app_name">每日单词</string>
+    <string name="phoneticsample">[aaa]</string>
+    <string name="interpretsample">n. this is a sample.</string>
+    <string name="noRefreshLesson">今天没有需要复习的课程了！</string>
+</resources>

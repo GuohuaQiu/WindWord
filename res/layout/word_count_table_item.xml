@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:scrollbars="none" >  
+  
+    <LinearLayout  
+        android:id="@+id/dictLayout"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:orientation="vertical"  
+        android:scrollbars="" >  
+  
+        <TextView  
+            android:id="@+id/title"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:text="业务字典管理" />  
+  
+ 
+        <TableLayout  
+            android:id="@+id/countTable"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:stretchColumns="1" >  
+  
+            <TableRow >  
+                <TextView  
+                    android:layout_width="15dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="DATE"  
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="0"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="1"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="2"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="3"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="4"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="5"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="6"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="7"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="8"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="9"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="10"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="12"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="13"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+                <TextView  
+                    android:layout_width="0dp"  
+                    android:layout_gravity="left"  
+                    android:padding="3dip"  
+                    android:text="14"  
+                    android:layout_weight="1"
+                    android:textStyle="bold" />  
+            </TableRow>  
+        </TableLayout>  
+  
+    </LinearLayout>  
+  
+</ScrollView>       
+

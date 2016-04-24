@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/today_refresh"
+        android:title="复习"></item>
+    <item
+        android:id="@+id/spell_test"
+        android:title="Spell Test"></item>
+    <item
+        android:id="@+id/static_info"
+        android:title="单词信息"></item>
+    <item
+        android:id="@+id/failed_list"
+        android:title="难记20词"></item>
+    <item
+        android:id="@+id/static_graph"
+        android:title="今日任务"></item>
+    <item
+        android:id="@+id/search_chinese"
+        android:title="搜索解释"></item>
+    <item
+        android:id="@+id/menu_progress_table"
+        android:title="Progress Table"></item>
+    <item
+        android:id="@+id/hard50"
+        android:title="Hard50"></item>
+    <item
+        android:id="@+id/menu_old_hard"
+        android:title="OLD HARD WORD"></item>
+    <item
+        android:id="@+id/Below10"
+        android:title="易记20词"></item>
+    <item
+        android:id="@+id/spell_hard_word"
+        android:title="复习最难单词"></item>
+    <item
+        android:id="@+id/view_confused"
+        android:title="View Confused"></item>
+    <item
+        android:id="@+id/backup_db"
+        android:title="备份数据"></item>
+    <item
+        android:id="@+id/general_info"
+        android:title="Information"></item>
+    <item
+        android:id="@+id/backup_dbfile"
+        android:title="Backup DB file"></item>
+    <item
+        android:id="@+id/loadfile"
+        android:title="导入词库"></item>
+    <item
+        android:id="@+id/restore_db"
+        android:title="恢复数据"></item>
+    <item
+        android:id="@+id/menu_test"
+        android:title="TEST"></item>
+</menu>
