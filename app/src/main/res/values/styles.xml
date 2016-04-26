@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextAppearanceLarge" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff88ff88</item>
+    </style>
+    <style name="ListItemTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">26.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffff0000</item>
+    </style>
+    <style name="StyleInterText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearanceMedium" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearanceSmall" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffff8888</item>
+    </style>
+    <style name="Theme.NoTitleBar" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="WordText">
+        <item name="android:textSize">33sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#f0ffee</item>
+    </style>
+    <style name="button_style">
+       <item name="android:textSize">20dp</item>
+       <item name="android:textColor">#ffffff</item>
+       <item name="android:layout_width">fill_parent</item>
+       <item name="android:layout_height">fill_parent</item>
+       <item name="android:layout_weight">1</item>
+       <item name="android:focusable">true</item>
+       <item name="android:background">@drawable/transparent_button</item>
+       <!--item name="android:layout_marginLeft">1dp</item-->
+       <item name="android:layout_margin">2dp</item>
+    </style>
+    <style name="panel_style">
+       <item name="android:textSize">50dp</item>
+       <item name="android:textColor">#ffffff</item>
+       <item name="android:layout_width">fill_parent</item>
+       <item name="android:layout_height">fill_parent</item>
+       <item name="android:layout_weight">1</item>
+       <item name="android:focusable">true</item>
+       <item name="android:background">@drawable/transparent_button</item>
+       <!--item name="android:layout_marginLeft">1dp</item-->
+       <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <style name="TextRed" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffef5b9c</item>
+    </style>
+    <style name="TextGreen" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff22ff88</item>
+    </style>
+    <style name="TextRed1" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffE75A46</item>
+    </style>
+    <style name="TextGreen1" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff82B978</item>
+    </style>
+</resources>

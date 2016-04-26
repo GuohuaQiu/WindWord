@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingLeft="12.0dip"
+    android:paddingTop="5.0dip"
+    android:paddingRight="12.0dip"
+    android:paddingBottom="5.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/list_item_height"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textAppearance="@style/TextRed"
+        android:id="@+id/order_text"
+        android:padding="0.0dip"
+        android:layout_width="60.0dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="0.0dip"
+        android:text=""
+        android:maxLines="1"
+        android:scrollHorizontally="true" />
+    <TextView
+        android:textAppearance="@style/TextGreen"
+        android:ellipsize="marquee"
+        android:id="@+id/wd_text"
+        android:padding="0.0dip"
+        android:focusableInTouchMode="true"
+        android:layout_width="200.0dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="0.0dip"
+        android:text=""
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:layout_toRightOf="@id/order_text"
+        android:marqueeRepeatLimit="marquee_forever" />
+    <TextView
+        android:textAppearance="@style/TextGreen"
+        android:ellipsize="marquee"
+        android:id="@+id/times_text"
+        android:padding="0.0dip"
+        android:focusableInTouchMode="true"
+        android:layout_width="50.0dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="0.0dip"
+        android:text=""
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:layout_toRightOf="@id/wd_text"
+        android:marqueeRepeatLimit="marquee_forever" />
+    <TextView
+        android:textAppearance="@style/TextGreen"
+        android:ellipsize="marquee"
+        android:id="@+id/span_text"
+        android:padding="0.0dip"
+        android:focusableInTouchMode="true"
+        android:layout_width="50.0dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="0.0dip"
+        android:text=""
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:layout_toRightOf="@id/times_text"
+        android:marqueeRepeatLimit="marquee_forever" />
+</RelativeLayout>

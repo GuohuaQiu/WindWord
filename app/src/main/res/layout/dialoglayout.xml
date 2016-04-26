@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/body"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:paddingLeft="8dip"
+        android:paddingTop="0dip"
+        android:paddingRight="8dip"
+        android:paddingBottom="10dip">
+        <LinearLayout
+            android:id="@+id/animate"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:paddingLeft="8dip"
+            android:paddingTop="10dip"
+            android:paddingRight="8dip"
+            android:paddingBottom="10dip">
+
+            <ProgressBar
+                android:id="@android:id/progress"
+                style="@android:style/Widget.ProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <qiu.tool.windword.ScrollitemView
+            android:id="@+id/items_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</LinearLayout> 
